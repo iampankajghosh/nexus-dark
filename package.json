@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "VEXT",
+        "label": "Next Horizon",
         "uiTheme": "vs-dark",
-        "path": "./themes/VEXT-color-theme.json"
+        "path": "./themes/next-horizon-color-theme.json"
       }
     ]
   },
