@@ -1,8 +1,9 @@
 {
   "name": "next-horizon",
-  "displayName": "next horizon",
-  "description": "A clean, modern VS Code theme inspired by Vercel & Next.js.",
-  "version": "0.0.1",
+  "displayName": "Next Horizon Theme",
+  "description": "A sleek, modern dark VS Code theme inspired by Next.js, focused on clarity, contrast, and developer comfort.",
+  "icon": "images/icon.png",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.107.0"
   },
@@ -23,5 +24,8 @@
     "type": "git",
     "url": "https://github.com/iampankajghosh/next-horizon"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iampankajghosh/next-horizon/issues"
+  }
 }

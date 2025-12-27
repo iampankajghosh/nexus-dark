@@ -210,8 +210,7 @@
       "name": "Markdown Headings & Links",
       "scope": ["markup.heading", "markup.underline.link", "string.other.link"],
       "settings": {
-        "foreground": "#52a8ff",
-        "fontStyle": "bold"
+        "foreground": "#52a8ff"
       }
     }
   ],
