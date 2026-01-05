@@ -1,4 +1,10 @@
 .vscode/**
 .vscode-test/**
+src/**
 .gitignore
+.yarnrc
 vsc-extension-quickstart.md
+**/.DS_Store
+**/*.vsix
+node_modules/**
+*.code-workspace

@@ -2,12 +2,10 @@
   "name": "nexus-dark",
   "displayName": "Nexus Dark",
   "description": "A sleek, modern dark VS Code theme with clean aesthetics, focused on clarity, contrast, and developer comfort.",
-  "version": "0.2.0",
   "publisher": "pankajghosh",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iampankajghosh/nexus-dark"
-  },
+  "author": "Pankaj Ghosh",
+  "version": "0.2.1",
+  "license": "MIT",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.75.0"
@@ -15,18 +13,6 @@
   "categories": [
     "Themes"
   ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Nexus Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nexus-dark.json"
-      }
-    ]
-  },
-  "author": "Pankaj Ghosh",
-  "homepage": "https://github.com/iampankajghosh/nexus-dark",
-  "license": "MIT",
   "keywords": [
     "theme",
     "dark",
@@ -37,6 +23,20 @@
     "vscode-theme",
     "dark-theme"
   ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nexus Dark (Beta)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nexus-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iampankajghosh/nexus-dark"
+  },
+  "homepage": "https://github.com/iampankajghosh/nexus-dark",
   "bugs": {
     "url": "https://github.com/iampankajghosh/nexus-dark/issues"
   }
