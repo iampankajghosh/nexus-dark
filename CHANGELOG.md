@@ -7,6 +7,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-01-07
+
+### Added
+
+- Comprehensive code organization with detailed section comments in theme file
+- Enhanced token color scopes for better syntax highlighting:
+  - JSX/TSX embedded content support
+  - Improved operator highlighting
+  - Enhanced property and object member support
+  - Better namespace and scope highlighting
+  - Support for `this` and `super` keywords
+  - Markdown syntax improvements (headings, links, code blocks)
+  - Symbol and key highlighting
+  - Primitive type support
+  - Invalid and deprecated code styling
+
+### Changed
+
+- Reorganized theme structure with clear section divisions (Workbench Colors, Token Colors)
+- Updated comment color from `#6c708660` to `#585b70` for better visibility
+- Improved list hover background from `#262626` to `#404040` for better contrast
+- Updated editor diagnostic colors:
+  - Error: `#ff5f5f`
+  - Warning: `#f0b429`
+  - Info: `#7aa2f7`
+  - Hint: `#9ece6a`
+- Simplified editor diagnostic properties (removed redundant border/background)
+- Removed deprecated side bar properties (`sideBarActivityBarTop.border`, `sideBarTitle.background`, `sideBarTitle.border`)
+- Moved `semanticHighlighting` property to top of theme configuration for better organization
+
+### Fixed
+
+- Improved token color scope coverage for modern web development
+- Better support for React/JSX syntax highlighting
+- Enhanced markdown rendering support
+
 ## [0.2.1] - 2026-01-06
 
 ### Added
