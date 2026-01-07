@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-01-08
+
+### Changed
+
+- Improved general foreground color visibility (from semi-transparent to fully opaque)
+- Enhanced scrollbar appearance with transparent background for cleaner look
+- Refined list hover background for better contrast and visibility
+- Increased minimap foreground opacity for improved code visibility
+- Updated editor selection background to a more subtle, neutral color
+- Improved inactive selection background for better visual distinction
+- Enhanced indent guide visibility for better code structure recognition
+- Updated status bar debugging colors from purple to orange theme for better contrast
+- Improved comment color visibility (`#585b70` → `#7f849c`) for better readability
+
+### Added
+
+- Support for `.env` file syntax highlighting with distinct colors for variable keys and values
+
 ## [0.2.2] - 2026-01-07
 
 ### Added
