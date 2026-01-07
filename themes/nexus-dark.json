@@ -18,7 +18,7 @@
     "contrastActiveBorder": "#0a0a0a",
     "contrastBorder": "#0a0a0a",
     "focusBorder": "#ffffff08",
-    "foreground": "#fafafa80",
+    "foreground": "#fafafa",
     "disabledForeground": "#fafafa40",
     "widget.border": "#ffffff1a",
     "widget.shadow": "#ffffff05",
@@ -126,7 +126,7 @@
      * Scrollbars & Badges
      * -----------------------------------------------------------------
      */
-    "scrollbar.background": "#0a0a0a",
+    "scrollbar.background": "#fafafa00",
     "scrollbar.shadow": "#0a0a0a",
     "scrollbarSlider.activeBackground": "#e5e5e520",
     "scrollbarSlider.background": "#e5e5e510",
@@ -151,7 +151,7 @@
     "list.focusOutline": "#ffffff00",
     "list.focusAndSelectionOutline": "#ffffff00",
     "list.highlightForeground": "#e5e5e5",
-    "list.hoverBackground": "#404040",
+    "list.hoverBackground": "#fafafa10",
     "list.hoverForeground": "#fafafa",
     "list.inactiveSelectionBackground": "#40404080",
     "list.inactiveSelectionForeground": "#fafafa80",
@@ -235,7 +235,7 @@
     "minimap.warningHighlight": "#d17724",
     "minimap.background": "#0a0a0a",
     "minimap.selectionOccurrenceHighlight": "#404040",
-    "minimap.foregroundOpacity": "#fafafa20",
+    "minimap.foregroundOpacity": "#fafafa",
     "minimap.infoHighlight": "#cccccc",
     "minimap.chatEditHighlight": "#1447e640",
     "minimapSlider.background": "#e5e5e510",
@@ -308,9 +308,9 @@
     "editorLineNumber.dimmedForeground": "#fafafa20",
     "editorCursor.background": "#0a0a0a",
     "editorCursor.foreground": "#e5e5e5",
-    "editor.selectionBackground": "#1447e640",
+    "editor.selectionBackground": "#fafafa20",
     "editor.selectionForeground": "#fafafa",
-    "editor.inactiveSelectionBackground": "#1447e620",
+    "editor.inactiveSelectionBackground": "#262626",
     "editor.selectionHighlightBackground": "#ffffff10",
     "editor.selectionHighlightBorder": "#ffffff00",
     "editor.wordHighlightBackground": "#ffffff10",
@@ -345,7 +345,7 @@
     "editor.symbolHighlightBackground": "#ffffff10",
     "editor.symbolHighlightBorder": "#ffffff00",
     "editorWhitespace.foreground": "#fafafa20",
-    "editorIndentGuide.background": "#ffffff10",
+    "editorIndentGuide.background": "#ffffff15",
     "editorIndentGuide.activeBackground": "#ffffff30",
     "editorInlayHint.background": "#262626",
     "editorInlayHint.foreground": "#fafafa60",
@@ -560,17 +560,17 @@
     "statusBar.background": "#0a0a0a",
     "statusBar.foreground": "#fafafa80",
     "statusBar.border": "#0a0a0a",
-    "statusBar.debuggingBackground": "#9162c025",
-    "statusBar.debuggingForeground": "#9162c0",
-    "statusBar.debuggingBorder": "#9162c025",
+    "statusBar.debuggingBackground": "#cc6f0040",
+    "statusBar.debuggingForeground": "#ffaa66",
+    "statusBar.debuggingBorder": "#cc6f0040",
     "statusBar.noFolderBackground": "#0a0a0a",
     "statusBar.noFolderForeground": "#fafafa80",
     "statusBar.noFolderBorder": "#0a0a0a",
     "statusBarItem.activeBackground": "#262626",
     "statusBarItem.hoverBackground": "#26262690",
-    "statusBarItem.prominentBackground": "#9162c025",
-    "statusBarItem.prominentForeground": "#9162c0",
-    "statusBarItem.prominentHoverBackground": "#9162c025",
+    "statusBarItem.prominentBackground": "#cc6f0040",
+    "statusBarItem.prominentForeground": "#ffaa66",
+    "statusBarItem.prominentHoverBackground": "#cc6f0040",
     "statusBarItem.remoteBackground": "#449d5d25",
     "statusBarItem.remoteForeground": "#449d5d",
     "statusBarItem.errorBackground": "#3c1618",
@@ -647,7 +647,7 @@
     {
       "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
-        "foreground": "#585b70",
+        "foreground": "#7f849c",
         "fontStyle": "italic"
       }
     },
@@ -853,6 +853,20 @@
       "settings": {
         "foreground": "#f38ba8",
         "fontStyle": "italic underline"
+      }
+    },
+    {
+      "name": ".env variable keys (left-hand side)",
+      "scope": ["variable.key.dotenv", "source.dotenv"],
+      "settings": {
+        "foreground": "#fab387"
+      }
+    },
+    {
+      "name": ".env variable",
+      "scope": ["property.value.dotenv", "source.dotenv"],
+      "settings": {
+        "foreground": "#a6e3a1"
       }
     }
   ]

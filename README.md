@@ -85,7 +85,7 @@ Or use the keyboard shortcut: `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T`
 
 ## 📝 Version
 
-Current version: **0.2.2**
+Current version: **0.2.3**
 
 See [CHANGELOG.md](./CHANGELOG.md) for version history and updates.
 
