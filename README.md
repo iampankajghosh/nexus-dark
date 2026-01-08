@@ -1,4 +1,4 @@
-![preview](https://res.cloudinary.com/ddws3mapm/image/upload/v1766922081/preview_o6ovnl.png)
+![preview](https://res.cloudinary.com/ddws3mapm/image/upload/v1767903409/preview_qzqaxb.png)
 
 # Nexus Dark
 
@@ -59,8 +59,7 @@ For the best visual experience, we recommend using the following settings in you
 {
   "editor.fontFamily": "'SF Mono', 'Fira Code', monospace",
   "editor.fontSize": 16,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.semanticHighlighting.enabled": true
+  "editor.cursorSmoothCaretAnimation": "on"
 }
 ```
 
