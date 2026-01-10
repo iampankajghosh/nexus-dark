@@ -9,9 +9,11 @@ A sleek, modern dark theme for Visual Studio Code with clean aesthetics, focused
 ## ✨ Features
 
 - **Clean & Modern Design** - Professional aesthetic with balanced contrast
-- **Optimized Readability** - Thoughtful color usage for reduced eye strain
-- **Comprehensive Coverage** - Full support for editor and UI components
-- **Modern Syntax Highlighting** - Support for popular languages and frameworks
+- **Optimized Readability** - Thoughtful color usage for reduced eye strain with enhanced visibility
+- **Accessibility Focused** - Improved contrast ratios and better visibility for all UI elements
+- **Comprehensive Coverage** - Full support for editor, UI components, and integrated terminal
+- **Modern Syntax Highlighting** - Support for popular languages, frameworks, and file types (including `.env` files)
+- **Terminal Colors** - Custom ANSI color scheme for integrated terminal with full color palette support
 - **Semantic Highlighting** - Better code understanding with semantic token colors
 - **Consistent UI** - Unified color scheme across all VS Code components
 
@@ -57,9 +59,11 @@ For the best visual experience, we recommend using the following settings in you
 
 ```json
 {
-  "editor.fontFamily": "'SF Mono', 'Fira Code', monospace",
+  "editor.fontFamily": "'SF Mono', 'Fira Code', 'MonoLisa', monospace",
   "editor.fontSize": 16,
-  "editor.cursorSmoothCaretAnimation": "on"
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorBlinking": true
 }
 ```
 
@@ -84,7 +88,7 @@ Or use the keyboard shortcut: `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T`
 
 ## 📝 Version
 
-Current version: **0.2.3**
+Current version: **0.2.4**
 
 See [CHANGELOG.md](./CHANGELOG.md) for version history and updates.
 
