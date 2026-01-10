@@ -7,6 +7,59 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-01-09
+
+### Added
+
+- Comprehensive terminal color scheme with ANSI color support:
+  - Custom terminal background and foreground colors
+  - Terminal cursor colors for better visibility
+  - Full ANSI color palette (black, red, green, yellow, blue, magenta, cyan, white) with bright variants
+  - Terminal selection background color
+
+### Changed
+
+- **Background Color Standardization**: Updated all UI element backgrounds from `#0a0a0a` to `#0c0c0c` for better consistency across:
+  - Activity bar, side bar, editor, tabs, editor groups, minimap, editor gutter, overview ruler, breadcrumbs, status bar, title bar, panel, and diff editor
+- **Editor Foreground Visibility**: Improved editor foreground color from semi-transparent (`#fafafa80`) to fully opaque (`#fafafa`) for better text readability
+- **Line Number Visibility**: Enhanced line number colors:
+  - Active line numbers: `#fafafa40` → `#fafafa80`
+  - Dimmed line numbers: `#fafafa20` → `#fafafa50`
+- **Editor Selection & Highlights**: Improved selection and highlight visibility:
+  - Selection background: `#fafafa20` → `#fafafa25`
+  - Word highlight backgrounds and borders increased opacity for better visibility
+  - Range and symbol highlight backgrounds: `#ffffff10` → `#ffffff15`
+  - Range and symbol highlight borders: `#ffffff00` → `#ffffff20`
+- **Line Highlighting**: Enhanced active and inactive line highlight backgrounds for better visibility
+- **Indent Guides**: Improved indent guide visibility:
+  - Background: `#ffffff15` → `#ffffff20`
+  - Active background: `#ffffff30` → `#ffffff40`
+- **Inlay Hints & Code Lens**: Increased visibility of inlay hints and code lens (`#fafafa60` → `#fafafa80`)
+- **Editor Gutter**: Enhanced gutter element visibility:
+  - Comment range foreground: `#fafafa40` → `#fafafa60`
+  - Comment glyph foreground: `#fafafa80` → `#fafafa`
+  - Folding control foreground: `#fafafa80` → `#fafafa`
+  - Comment draft glyph: `#fafafa60` → `#fafafa80`
+- **Editor Whitespace**: Improved whitespace indicator visibility (`#fafafa20` → `#fafafa30`)
+- **Editor Ruler**: Enhanced ruler visibility (`#ffffff10` → `#ffffff20`)
+- **Side Bar**: Improved side bar foreground visibility (`#fafafa80` → `#fafafacc`)
+- **Breadcrumbs**: Enhanced breadcrumb foreground visibility (`#fafafa80` → `#fafafacc`)
+- **Status Bar**: 
+  - Updated debugging colors from purple theme to orange theme for better contrast
+  - Improved status bar item backgrounds and hover states for better visibility
+  - Enhanced status bar foreground visibility (`#fafafa80` → `#fafafacc`)
+- **Title Bar**: Improved title bar foreground visibility
+- **Panel**: Enhanced panel title inactive foreground (`#fafafa60` → `#fafafa80`)
+- **List Elements**: Improved list deemphasized foreground visibility (`#fafafa60` → `#fafafa80`)
+- **Input Fields**: Enhanced input placeholder text visibility (`#fafafa60` → `#fafafa80`)
+- **Inline Chat**: Improved inline chat input placeholder visibility (`#fafafa60` → `#fafafa80`)
+- **Editor Widgets**: Enhanced suggest widget status foreground (`#fafafa60` → `#fafafa80`)
+- **Border Colors**: Updated border colors for better consistency (`#0a0a0a` → `#0c0c0c` for contrast borders, window borders, and scrollbar shadow)
+- **Focus Border**: Enhanced focus border visibility (`#ffffff08` → `#ffffff30`) for better focus indication
+- **Fold Placeholder**: Improved fold placeholder foreground visibility (`#fafafa60` → `#fafafa80`)
+- Updated documentation to reflect current version and ensure consistency across all files
+- Fixed version mismatch between README.md and package.json
+
 ## [0.2.3] - 2026-01-08
 
 ### Changed
