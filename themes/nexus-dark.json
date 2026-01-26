@@ -3,18 +3,7 @@
   "type": "dark",
   "semanticHighlighting": true,
 
-  /*
-   * ===================================================================
-   * WORKBENCH COLORS
-   * ===================================================================
-   */
-
   "colors": {
-    /*
-     * -----------------------------------------------------------------
-     * General Workbench
-     * -----------------------------------------------------------------
-     */
     "contrastActiveBorder": "#0a0a0a",
     "contrastBorder": "#0a0a0a",
     "focusBorder": "#ffffff08",
@@ -29,12 +18,6 @@
     "sash.hoverBorder": "#ffffff1a",
     "window.activeBorder": "#0a0a0a",
     "window.inactiveBorder": "#0a0a0a",
-
-    /*
-     * -----------------------------------------------------------------
-     * Text Elements
-     * -----------------------------------------------------------------
-     */
     "textBlockQuote.background": "#262626",
     "textBlockQuote.border": "#ffffff1a",
     "textCodeBlock.background": "#262626",
@@ -43,12 +26,6 @@
     "textPreformat.foreground": "#fafafa",
     "textPreformat.background": "#262626",
     "textSeparator.foreground": "#ffffff1a",
-
-    /*
-     * -----------------------------------------------------------------
-     * Toolbar & Action List
-     * -----------------------------------------------------------------
-     */
     "toolbar.hoverBackground": "#262626",
     "toolbar.hoverOutline": "#404040",
     "toolbar.activeBackground": "#1a1a1a",
@@ -56,12 +33,6 @@
     "editorActionList.foreground": "#fafafa",
     "editorActionList.focusForeground": "#e5e5e5",
     "editorActionList.focusBackground": "#404040",
-
-    /*
-     * -----------------------------------------------------------------
-     * Buttons, Checkboxes & Radio
-     * -----------------------------------------------------------------
-     */
     "button.background": "#e5e5e5",
     "button.foreground": "#171717",
     "button.border": "#ffffff1a",
@@ -86,12 +57,6 @@
     "radio.inactiveBackground": "#232323",
     "radio.inactiveBorder": "#ffffff1a",
     "radio.inactiveHoverBackground": "#262626",
-
-    /*
-     * -----------------------------------------------------------------
-     * Inputs & Dropdowns
-     * -----------------------------------------------------------------
-     */
     "dropdown.background": "#262626",
     "dropdown.listBackground": "#262626",
     "dropdown.border": "#404040",
@@ -105,12 +70,6 @@
     "inputOption.activeBorder": "#e5e5e5",
     "inputOption.activeForeground": "#fafafa",
     "inputOption.hoverBackground": "#262626",
-
-    /*
-     * -----------------------------------------------------------------
-     * Input Validation
-     * -----------------------------------------------------------------
-     */
     "inputValidation.errorBackground": "#3c1618",
     "inputValidation.errorForeground": "#ff6467",
     "inputValidation.errorBorder": "#ff6467",
@@ -120,12 +79,6 @@
     "inputValidation.warningBackground": "#d1772425",
     "inputValidation.warningForeground": "#d17724",
     "inputValidation.warningBorder": "#d17724",
-
-    /*
-     * -----------------------------------------------------------------
-     * Scrollbars & Badges
-     * -----------------------------------------------------------------
-     */
     "scrollbar.background": "#fafafa00",
     "scrollbar.shadow": "#0a0a0a",
     "scrollbarSlider.activeBackground": "#e5e5e520",
@@ -135,12 +88,6 @@
     "badge.foreground": "#e5e5e5",
     "badge.background": "#171717",
     "progressBar.background": "#e5e5e5",
-
-    /*
-     * -----------------------------------------------------------------
-     * Lists & Trees
-     * -----------------------------------------------------------------
-     */
     "list.activeSelectionBackground": "#404040",
     "list.activeSelectionForeground": "#fafafa",
     "list.activeSelectionIconForeground": "#fafafa",
@@ -174,12 +121,6 @@
     "tree.inactiveIndentGuidesStroke": "#ffffff10",
     "tree.tableColumnsBorder": "#ffffff1a",
     "tree.tableOddRowsBackground": "#ffffff05",
-
-    /*
-     * -----------------------------------------------------------------
-     * Activity Bar
-     * -----------------------------------------------------------------
-     */
     "activityBar.background": "#0a0a0a",
     "activityBar.dropBorder": "#ffffff1a",
     "activityBar.foreground": "#e5e5e5",
@@ -202,12 +143,6 @@
     "activityWarningBadge.background": "#fe9a00",
     "activityErrorBadge.foreground": "#171717",
     "activityErrorBadge.background": "#ff6467",
-
-    /*
-     * -----------------------------------------------------------------
-     * Side Bar & Profiles
-     * -----------------------------------------------------------------
-     */
     "profileBadge.background": "#171717",
     "profileBadge.foreground": "#fafafa",
     "profiles.sashBorder": "#0a0a0a",
@@ -223,12 +158,6 @@
     "sideBarStickyScroll.background": "#0a0a0a",
     "sideBarStickyScroll.border": "#ffffff1a",
     "sideBarStickyScroll.shadow": "#0a0a0a",
-
-    /*
-     * -----------------------------------------------------------------
-     * Minimap
-     * -----------------------------------------------------------------
-     */
     "minimap.findMatchHighlight": "#1447e680",
     "minimap.selectionHighlight": "#404040",
     "minimap.errorHighlight": "#ff6467",
@@ -245,12 +174,6 @@
     "minimapGutter.modifiedBackground": "#9162c0",
     "minimapGutter.deletedBackground": "#ff6467",
     "editorMinimap.inlineChatInserted": "#449d5d20",
-
-    /*
-     * -----------------------------------------------------------------
-     * Editor Groups & Tabs
-     * -----------------------------------------------------------------
-     */
     "editorGroup.border": "#0a0a0a",
     "editorGroup.dropBackground": "#26262690",
     "editorGroupHeader.noTabsBackground": "#0a0a0a",
@@ -295,12 +218,6 @@
     "editorPane.background": "#0a0a0a",
     "sideBySideEditor.horizontalBorder": "#0a0a0a",
     "sideBySideEditor.verticalBorder": "#0a0a0a",
-
-    /*
-     * -----------------------------------------------------------------
-     * Editor Core
-     * -----------------------------------------------------------------
-     */
     "editor.background": "#0a0a0a",
     "editor.foreground": "#fafafa80",
     "editorLineNumber.foreground": "#fafafa40",
@@ -372,12 +289,6 @@
 
     "editor.foldBackground": "#262626",
     "editor.foldPlaceholderForeground": "#fafafa60",
-
-    /*
-     * -----------------------------------------------------------------
-     * Editor Overview Ruler & Diagnostics
-     * -----------------------------------------------------------------
-     */
     "editorOverviewRuler.background": "#0a0a0a",
     "editorOverviewRuler.border": "#ffffff1a",
     "editorOverviewRuler.findMatchForeground": "#1447e680",
@@ -404,12 +315,6 @@
     "problemsInfoIcon.foreground": "#cccccc",
 
     "editorUnnecessaryCode.opacity": "#00000060",
-
-    /*
-     * -----------------------------------------------------------------
-     * Editor Gutter
-     * -----------------------------------------------------------------
-     */
     "editorGutter.background": "#0a0a0a",
     "editorGutter.modifiedBackground": "#9162c0",
     "editorGutter.modifiedSecondaryBackground": "#9162c040",
@@ -424,12 +329,6 @@
     "editorGutter.itemGlyphForeground": "#e5e5e5",
     "editorGutter.itemBackground": "#262626",
     "editorGutter.commentDraftGlyphForeground": "#fafafa60",
-
-    /*
-     * -----------------------------------------------------------------
-     * Comments Widget & Inline Edits
-     * -----------------------------------------------------------------
-     */
     "editorCommentsWidget.resolvedBorder": "#404040",
     "editorCommentsWidget.unresolvedBorder": "#ff6467",
     "editorCommentsWidget.rangeBackground": "#262626",
@@ -457,12 +356,6 @@
     "inlineEdit.modifiedBorder": "#449d5d",
     "inlineEdit.tabWillAcceptModifiedBorder": "#449d5d",
     "inlineEdit.tabWillAcceptOriginalBorder": "#ff6467",
-
-    /*
-     * -----------------------------------------------------------------
-     * Diff Editor
-     * -----------------------------------------------------------------
-     */
     "diffEditor.insertedTextBackground": "#449d5d30",
     "diffEditor.insertedTextBorder": "#449d5d",
     "diffEditor.removedTextBackground": "#ff646730",
@@ -485,12 +378,6 @@
     "multiDiffEditor.headerBackground": "#262626",
     "multiDiffEditor.background": "#0a0a0a",
     "multiDiffEditor.border": "#ffffff1a",
-
-    /*
-     * -----------------------------------------------------------------
-     * Chat & Inline Chat
-     * -----------------------------------------------------------------
-     */
     "chat.requestBorder": "#ffffff1a",
     "chat.requestBackground": "#262626",
     "chat.slashCommandBackground": "#404040",
@@ -516,12 +403,6 @@
     "inlineChatInput.background": "#262626",
     "inlineChatDiff.inserted": "#449d5d20",
     "inlineChatDiff.removed": "#ff646720",
-
-    /*
-     * -----------------------------------------------------------------
-     * Editor Widgets
-     * -----------------------------------------------------------------
-     */
     "interactive.activeCodeBorder": "#404040",
     "interactive.inactiveCodeBorder": "#262626",
 
@@ -545,12 +426,6 @@
     "editorHoverWidget.border": "#ffffff1a",
     "editorHoverWidget.highlightForeground": "#e5e5e5",
     "editorHoverWidget.statusBarBackground": "#1a1a1a",
-
-    /*
-     * -----------------------------------------------------------------
-     * Breadcrumbs, Status Bar, Title Bar, Menus & Notifications
-     * -----------------------------------------------------------------
-     */
     "breadcrumb.foreground": "#fafafa80",
     "breadcrumb.background": "#0a0a0a",
     "breadcrumb.focusForeground": "#fafafa",
@@ -609,12 +484,6 @@
     "banner.background": "#171717",
     "banner.foreground": "#fafafa",
     "banner.iconForeground": "#fafafa",
-
-    /*
-     * -----------------------------------------------------------------
-     * Panel
-     * -----------------------------------------------------------------
-     */
     "panel.background": "#0c0c0c",
     "panel.border": "#ffffff1a",
     "panel.dropBorder": "#ffffff1a",
@@ -623,13 +492,6 @@
     "panelTitle.inactiveForeground": "#fafafa60",
     "panelInput.border": "#ffffff1a"
   },
-
-  /*
-   * ===================================================================
-   * TOKEN COLORS (Syntax Highlighting)
-   * ===================================================================
-   */
-
   "tokenColors": [
     {
       "scope": [
